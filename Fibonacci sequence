@@ -1,0 +1,14 @@
+# fibonacci sequence
+
+num = int(input("Insert a number: "))
+
+num1, num2 = 0, 1
+
+counter = 0
+
+while counter < num:
+  num3 = num1 + num2
+  num1 = num2
+  num2 = num3
+  counter += 1
+  print(num1)
