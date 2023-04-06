@@ -1,0 +1,23 @@
+# beginners-
+Code for beginners
+
+#Create a speed detector
+
+speed = float(input("Speed: "))
+
+if speed <= 50:
+  print("No traffic ticket")
+
+if speed > 50 and speed < 60:
+  speed2 = 120 + 3 * (vel - 50)
+  print(f"Ticket of {vel2}")
+
+if speed > 60 and speed < 70:
+  speed3 = 120 + 5 * (speed - 50)
+  print(f"Ticket of {vel3}")
+
+if speed > 70:
+  speed4 = 200 + 6 * (speed - 50)
+  print(f"Ticket of {vel4}")
+
+print(f"Speed reached: {speed}km/h \nYou exceeded the speed on  {speed - 50}km")
